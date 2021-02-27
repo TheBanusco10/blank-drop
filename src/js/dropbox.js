@@ -5,13 +5,12 @@ $(function () {
 
         // Required. Called when a user selects an item in the Chooser.
         success: function(files) {
-
             $.post('src/php/images.php', {data: JSON.stringify({
                 id: files[0].id,
                 name: files[0].name,
                 thumbnail: files[0].thumbnailLink,
                 link: files[0].link
-            })})
+            })});
 
         },
 
