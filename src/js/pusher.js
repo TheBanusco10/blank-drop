@@ -19,6 +19,7 @@ $(function () {
                         <img src="${data.thumbnail}" alt="${data.name}">
                     </a>
                     <p>${data.name}</p>
+                    <p>${data.comentario}</p>
                 </article>
             
             `);

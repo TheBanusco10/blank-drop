@@ -9,8 +9,11 @@ $(function () {
                 id: files[0].id,
                 name: files[0].name,
                 thumbnail: files[0].thumbnailLink,
-                link: files[0].link
+                link: files[0].link,
+                comentario: $('#comentario').val()
             })});
+
+            $('#comentario').val('');
 
         },
 

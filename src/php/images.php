@@ -8,9 +8,9 @@
   );
   
   $pusher = new Pusher\Pusher(
-    'b4f3bcc25b6fc08d1f22',
-    'd0868e51baba0aa60571',
-    '1162930',
+    'xxxxxxxxxxxxxxxxxxxx', // Key
+    'yyyyyyyyyyyyyyyyyyyy', // Secret
+    'aaaaaaa', // App id
     $options
   );
 
