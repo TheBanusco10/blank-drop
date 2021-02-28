@@ -3,7 +3,7 @@ $(function () {
     // Enable pusher logging - don't include this in production
         Pusher.logToConsole = true;
     
-        let pusher = new Pusher('b4f3bcc25b6fc08d1f22', {
+        let pusher = new Pusher('xxxxxxxxxxxxxxx', {
         cluster: 'eu'
         });
     
